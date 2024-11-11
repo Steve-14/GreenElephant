@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(107, 156, 154);
+}
+
+#art{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    }
+    
+.navBar{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap ;
+    border: cornsilk solid 6px;
+    gap: 20px;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+.why{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-left:80px;
+    padding-right: 120px;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.intro{
+    background-color: rgb(201, 243, 171);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40pt;
+}
+
+.navBar:hover{
+    font-size: large;
+    background-color: rgb(150, 192, 150);
+    
+}
+
+.about{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    border: black solid 8px;
+    text-align: center;
+}
+
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 3px;
+    border-color: black;
+    justify-content: center;
+}
+
+.gitem1{
+border: 12px;
+margin: 15px;
+align-content: space-around;
+justify-items:baseline;
+border:10px,;
+border-color: rgb(240, 61, 61);
+border-style: double;
+}
+.gitem1:hover{
+    transform: scale(1.3, 1.3);
+    }
+
+.gitem2{
+    border: 10px;
+    border-color: blue;
+    border-style: double;
+    margin: 15px;
+    align-content: space-around;
+    justify-items:baseline;
+    }
+    .gitem2:hover{
+        transform: scale(1.3, 1.3);
+        }
+
+.gitem3{
+    border: 10px;
+    border-color: rgb(233, 58, 154);
+    border-style: double;
+    margin: 15px;
+    align-content: space-around;
+    justify-items:center;
+    }
+.gitem3:hover{
+    transform: scale(1.3, 1.3);
+    }
+
+
+.gitem4{
+    border: 10px;
+    border-color: rgb(138, 121, 232);
+    border-style: double;
+    margin: 15px;
+    align-content: space-around;
+    justify-items:center;
+}
+.gitem4:hover{
+    transform: scale(1.3, 1.3);
+    }
+
+.gitem5{
+    border: 10px;
+    border-color: rgb(103, 239, 53);
+    border-style: double;
+    margin: 15px;
+    justify-content: center;
+    
+}
+
+#crazy{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+
+.footer{
+    display:flex;
+    flex-direction:row;
+    border: solid black 2px;
+    padding: 10px;
+    font-size: 2em;
+}
