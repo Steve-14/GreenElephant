@@ -1,8 +1,9 @@
 body{
     background-image:url("Media/gecbackgrnd.png");
-    background-image:;
-
-    background-color: rgb(155, 182, 169);
+    /* image to use as backdrop */
+    background-repeat:no-repeat; /* so image does not tile */
+    background-size: cover; /* so image fills whole page without losing proportion */
+    background-color: rgb(155, 182, 169); /* if browser canno tdisplay image */
     }
 
 
@@ -126,8 +127,14 @@ border-style: double;
     border-style: double;
     margin: 15px;
     justify-content: center;
-    
+    z-index: 0;
 }
+        
+.gitem5:hover{
+    transform: scale(1.1, 1.1);
+    z-index: 1;
+        }
+
 
 #crazy{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -139,12 +146,13 @@ border-style: double;
     display:flex;
     
     flex-direction:row;
-    row-gap: 15px;
+    row-gap: 25px;
     border: 10px solid  cornsilk;
     border-radius: 20%;
     padding: 10px;
     font-size: 1.2em;
     color: beige;
+    z-index: 2;
 }
 
 .events{
@@ -157,4 +165,28 @@ border-style: double;
     margin-bottom: 15px;
     text-shadow:10px;
     padding: 35px;
+}
+
+label{
+    color:beige;
+    font-size: 30x;
+}
+
+.sitelinks{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: beige;
+    padding: 12px;
+    border: 8px solid ;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.grid-item{
+background-color: bisque;
+border: 2px solid  rgb(155, 182, 169);
+padding: 20px;
+font-size: 18px;
+text-align: center;
 }
