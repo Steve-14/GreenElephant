@@ -13,8 +13,3 @@ pic.addEventListener("mouseover", () => {
 })
 
 
-//const art = document.getElementsByClassName("");
-    //art.addEventListener("mouseover", () => {
-        //transform:(2,2) = "dashed";
-    //console.log("help them all");
-
