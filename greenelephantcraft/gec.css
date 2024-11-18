@@ -177,10 +177,11 @@ label{
     grid-template-columns: auto auto auto;
     background-color: beige;
     padding: 12px;
-    border: 8px solid ;
+    border: 10px solid ;
     border-radius: 10%;
     text-align: center;
     font-size: 2em;
+    margin-top: 10px;
 }
 
 .grid-item{
@@ -355,4 +356,73 @@ text-align: center;
     padding: 20px;
     text-align:left;
     margin: 20px;
+}
+
+
+
+/* ++++++++++++++++ fabrics ++++++++++++++++ */
+
+
+.fab{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+    text-align:  center;
+    border: 10px outset lightgreen;
+    margin: 55px;
+}
+
+.fabBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 30px;
+    border-color: khaki;
+    background-color:rgba(226, 233, 122, 0.247);
+    border-radius: 20%;
+    padding: 30px;
+    color: bisque;
+}
+
+.crochcentre{
+    font: 1.5em sans-serif;
+    padding: 30px;
+    margin: 30px;
+    border: 10px outset lightgreen;
+
+}
+
+.croch1{
+border: 5px inset rgba(38, 186, 206, 0.692);
+margin: 35px;
+font-size: 30px;
+padding: 15px
+}
+
+.croch2{
+border: 5px inset rgba(233, 17, 17, 0.692);
+margin: 35px;
+padding:15px;
+font-size: 30px;
+
+}
+
+.croch3{
+    border: 5px inset rgba(17, 233, 107, 0.438);
+    margin: 55px;
+    padding: 10px;
+    font-size: 30px;
+    
+    }
+
+.croch4{
+    border: 5px inset orange;
+    margin: 55px;
+    padding:10px;
+    font-size: 30px;
+    
+    
 }
